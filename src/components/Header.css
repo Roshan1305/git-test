@@ -1,0 +1,78 @@
+*{
+    text-decoration-style: none;
+}
+
+.header{
+    /* background-image:url("https://www.wallpaperup.com/uploads/wallpapers/2012/09/25/16485/65a6b28bcfbf35a00b649115488a7caf.jpg");
+    background-size: cover;  */
+    color: white;
+    margin: 15px;  
+    display: grid;
+    align-items: unset;
+    justify-content: center;
+}
+.header1{
+    display: grid;
+    align-items: unset;
+    justify-content: center;
+	    
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    color: white;
+    margin-right: 5px;
+    
+}
+.logo:hover{
+    transition: 250ms transform ease-in;
+    transform: scale(1.2);
+    color: yellow;
+}
+.name{
+    padding:7px;
+    margin-top:15px;}
+
+.header2 {
+    align-items: center;
+    display: flex;
+ justify-content: center;   
+ text-decoration-style: dashed ;
+ font-size: medium;
+ font-weight: bold;
+}
+
+.left{
+   margin-left: 10px;
+   margin-right: 10px;
+   color: white;
+   text-decoration: none !important;
+   text-decoration-line:none !important ;
+   
+}
+.left1{
+    margin-left: 10px;
+    margin-right: 15px;
+    color: white;
+    text-decoration-line:none !important ;
+
+}
+.hr1{
+    border-top: 1px dotted white;
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:#FFFF00;
+    height: 1px;
+}
+.left:hover{
+    transition: 100ms transform ease-in;
+    transform: scale(1.2);
+    text-decoration:none !important;
+    color: yellow;
+}   
+.boxhead a {
+    color: #FFFFFF;
+    text-decoration: none;
+}

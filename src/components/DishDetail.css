@@ -1,0 +1,39 @@
+/* .container{
+    background-image:url(../shared/wall.jpeg);
+  background-size: cover;
+  position: fixed;
+} */
+.card{
+  margin: 20px;
+}
+.comm{
+  margin: 20px;
+}
+.bread3{
+  margin-top: 30px;
+  width: 270px;
+  border-radius: 20px;
+
+}
+.p{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  }
+  .title{
+    display: grid;
+    justify-content: center;
+    padding-right: 30px;
+  }
+  .path{
+    display: grid;
+    justify-content: center;
+  }
+  button{
+    width: 290px;
+    height: 50px;
+    background-color: #2554C7;
+    color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+  }

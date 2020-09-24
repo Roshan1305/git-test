@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1.0;
+    box-shadow:" 0 4px 60px rgba(0,0,0,0.5)";
+    margin-left: 30px;
+}
+.header_left{
+
+}
+.header_right{
+
+}

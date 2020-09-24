@@ -1,39 +1,75 @@
-/*.App {
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  margin-bottom:0px ;
+  
+}
+.boxhead a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.app{
+  overflow: auto;
+  
+  min-width: 100%;
+  min-height: 100%;
+  
+  
+}
+a{
+  text-decoration: none !important;
+}
+.logo{
+  width: 80px;
+  height: 80px;
+  margin: 10px 15px 10px 0;
+}
+.but{
+  width: 30px;
+  height: 30px;
+  padding-right:5px ;
+}
+#NavbarToggle{
+  float: left;
+}
+.nav-item {
+  margin-top: 10px;
+}
+.nav-item a {
+  color: #951C49;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item a:hover {
+  background: #E7E7E7;
+}
+.nav-item {
+  font-size: 0.9em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.modal-backdrop {
+  opacity: 0.5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.modal.fade.in {
+  opacity: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.modal.fade.in .modal-dialog {
+  transform: translate(0,0);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+#jf{
+  background-color: #FF7F50;
+  margin-top:0px;
 }
-*/
